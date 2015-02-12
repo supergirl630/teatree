@@ -18,6 +18,7 @@ end
 
 group :test do
   gem 'capybara', '~> 2.0'
+  gem 'shoulda-matchers', '~> 2.8.0'
 end  
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
