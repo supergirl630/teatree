@@ -50,4 +50,6 @@ describe "Editing todo lists" do
     	update_todo_list todo_list: todo_list, description: "hi"
     	expect(page).to have_content("error")		
     end	
-end		
+end	
+
+end	
